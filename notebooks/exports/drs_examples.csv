@@ -1,0 +1,8 @@
+case,pitched,impact,wickets,LBW decision,failed conditions
+Plumb in front,in line,in line,hitting,out,-
+Pitched outside leg,outside leg,in line,inconclusive,not_out,Pitching
+"Impact outside off, shot offered",outside off,outside off,hitting,not_out,Impact
+"Impact outside off, no shot",outside off,outside off,hitting,out,-
+No-ball,in line,in line,hitting,not_out,Legal delivery
+Too high,in line,in line,missing,not_out,Wickets
+Missing data,-,-,inconclusive,inconclusive,-

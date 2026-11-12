@@ -1,0 +1,15 @@
+name,role,bowl_style,batting_hand,synthetic
+Arun Mehta,batter,,right,True
+Ben Carter,batter,,right,True
+Dev Patel,wicket_keeper,,right,True
+Ethan Brooks,batter,spin_off,right,True
+Farhan Ali,all_rounder,pace_medium,right,True
+George Hill,all_rounder,spin_leg,right,True
+Harry Singh,batter,,right,True
+Imran Khan,bowler,pace_fast,right,True
+Jack Wood,bowler,pace_medium,right,True
+Kabir Rao,bowler,spin_off,right,True
+Liam Shaw,bowler,pace_medium,right,True
+Milan Das,all_rounder,pace_medium,right,True
+Noah Reid,batter,,right,True
+Omar Aziz,wicket_keeper,,right,True

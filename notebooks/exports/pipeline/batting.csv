@@ -1,0 +1,14 @@
+player,innings,not_outs,runs,balls,fours,sixes,highest,highest_not_out,fifties,hundreds,ducks,average,strike_rate,highest_text,boundary_pct,name
+Arun Mehta,7,0,120,94,13,4,41,False,0,0,2,17.143,127.66,41,63.333,Arun Mehta
+Farhan Ali,6,0,115,100,8,7,32,False,0,0,0,19.167,115.0,32,64.348,Farhan Ali
+Dev Patel,8,0,91,79,10,2,39,False,0,0,3,11.375,115.19,39,57.143,Dev Patel
+Harry Singh,8,1,82,96,8,3,22,False,0,0,2,11.714,85.417,22,60.976,Harry Singh
+George Hill,7,1,71,76,7,3,31,False,0,0,2,11.833,93.421,31,64.789,George Hill
+Ethan Brooks,6,0,67,78,6,1,25,False,0,0,2,11.167,85.897,25,44.776,Ethan Brooks
+Milan Das,6,0,59,79,6,2,27,False,0,0,0,9.833,74.684,27,61.017,Milan Das
+Ben Carter,6,0,56,51,7,1,19,False,0,0,1,9.333,109.804,19,60.714,Ben Carter
+Noah Reid,6,0,44,49,5,1,16,False,0,0,2,7.333,89.796,16,59.091,Noah Reid
+Imran Khan,4,1,38,41,3,2,16,False,0,0,1,12.667,92.683,16,63.158,Imran Khan
+Kabir Rao,5,1,17,42,3,0,9,True,0,0,1,4.25,40.476,9*,70.588,Kabir Rao
+Liam Shaw,7,4,14,25,2,0,7,False,0,0,1,4.667,56.0,7,57.143,Liam Shaw
+Jack Wood,6,3,12,38,1,0,5,True,0,0,1,4.0,31.579,5*,33.333,Jack Wood

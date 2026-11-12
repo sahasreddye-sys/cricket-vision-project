@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+backend/.env
+backend/.secret_key
+backend/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+.ipynb_checkpoints/
+.DS_Store
+.impeccable/review/
+.impeccable/direction-payload.json
+.claude/

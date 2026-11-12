@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pitchvision"
+version = "1.0.0"
+description = "Shared cricket analytics used by the PitchVision backend and notebooks"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.2", "scikit-learn>=1.5", "opencv-python-headless>=4.10", "mediapipe>=0.10.30"]
+
+[tool.setuptools]
+packages = ["pitchvision"]
+
+[tool.setuptools.package-data]
+pitchvision = ["models/*.task"]

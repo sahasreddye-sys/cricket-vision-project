@@ -1,0 +1,222 @@
+PLAYER REPORT: Arun Mehta
+Role: batter
+
+Batting: 7 innings, 120 runs, average 17.1
+Fielding: 5 catches, 100% of chances
+
+No recommendation crosses a coaching threshold.
+
+PLAYER REPORT: Ben Carter
+Role: batter
+
+Batting: 6 innings, 56 runs, average 9.3
+Fielding: 4 catches, 80% of chances
+
+Recommendations:
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 91 vs pace (33 balls) and 144 vs spin (18 balls).
+ - Dismissals against pace: You are getting out often against pace.
+     evidence: 5 dismissals for 30 runs against pace (average 6.0).
+
+PLAYER REPORT: Dev Patel
+Role: wicket_keeper
+
+Batting: 8 innings, 91 runs, average 11.4
+Fielding: 3 catches, 100% of chances
+
+Recommendations:
+ - Dismissals against pace: You are getting out often against pace.
+     evidence: 5 dismissals for 46 runs against pace (average 9.2).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 5 of 8 innings.
+
+PLAYER REPORT: Ethan Brooks
+Role: batter
+
+Batting: 6 innings, 67 runs, average 11.2
+Bowling: 15.0 overs, 4 wickets, economy 6.93
+Fielding: 1 catches, 25% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 12% of 96 recorded deliveries landed in the target zone (below 40%).
+ - Bowling line: Tighten your line: the sideways spread of your deliveries is wide.
+     evidence: Lateral spread 31 cm (standard deviation) over 96 deliveries (above 30 cm).
+ - Dismissals against pace: You are getting out often against pace.
+     evidence: 5 dismissals for 46 runs against pace (average 9.2).
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 1 caught and 3 dropped (25% of 4 chances, below 60%).
+ - Bowling length: Your group is centred fuller than your target; adjust your length.
+     evidence: Average pitching point is 2.1 m fuller than the target length.
+
+PLAYER REPORT: Farhan Ali
+Role: all_rounder
+
+Batting: 6 innings, 115 runs, average 19.2
+Bowling: 21.0 overs, 7 wickets, economy 6.57
+Fielding: 3 catches, 100% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 29% of 93 recorded deliveries landed in the target zone (below 40%).
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 100 vs pace (58 balls) and 136 vs spin (42 balls).
+
+PLAYER REPORT: George Hill
+Role: all_rounder
+
+Batting: 7 innings, 71 runs, average 11.8
+Bowling: 16.4 overs, 7 wickets, economy 5.10
+Fielding: 2 catches, 50% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 17% of 94 recorded deliveries landed in the target zone (below 40%).
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 79 vs pace (52 balls) and 125 vs spin (24 balls).
+ - Dismissals against pace: You are getting out often against pace.
+     evidence: 5 dismissals for 41 runs against pace (average 8.2).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 4 of 7 innings.
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 2 caught and 2 dropped (50% of 4 chances, below 60%).
+ - Bowling length: Your group is centred fuller than your target; adjust your length.
+     evidence: Average pitching point is 1.8 m fuller than the target length.
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 64% dot balls from 76 balls faced (above 60%).
+
+PLAYER REPORT: Harry Singh
+Role: batter
+
+Batting: 8 innings, 82 runs, average 11.7
+Fielding: 3 catches, 50% of chances
+
+Recommendations:
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 3 caught and 3 dropped (50% of 6 chances, below 60%).
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 64% dot balls from 96 balls faced (above 60%).
+ - Ground fielding: Clean pick-ups: too many misfields.
+     evidence: 8 misfields in 16 ground-fielding chances (50% clean, below 75%).
+
+PLAYER REPORT: Imran Khan
+Role: bowler
+
+Batting: 4 innings, 38 runs, average 12.7
+Bowling: 14.0 overs, 7 wickets, economy 7.29
+Fielding: 7 catches, 78% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 35% of 96 recorded deliveries landed in the target zone (below 40%).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 2 of 4 innings.
+ - Bowling economy: You concede more per over than the team rate; work on a stock ball you can land under pressure.
+     evidence: Economy 7.29 against a team economy of 5.95 (14.0 overs bowled).
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 63% dot balls from 41 balls faced (above 60%).
+
+PLAYER REPORT: Jack Wood
+Role: bowler
+
+Batting: 6 innings, 12 runs, average 4.0
+Bowling: 17.5 overs, 5 wickets, economy 6.22
+Fielding: 2 catches, 50% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 37% of 95 recorded deliveries landed in the target zone (below 40%).
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 22 vs pace (18 balls) and 40 vs spin (20 balls).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 3 of 6 innings.
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 2 caught and 2 dropped (50% of 4 chances, below 60%).
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 82% dot balls from 38 balls faced (above 60%).
+ - Ground fielding: Clean pick-ups: too many misfields.
+     evidence: 8 misfields in 24 ground-fielding chances (67% clean, below 75%).
+ - Throwing: Work on throwing accuracy at the stumps.
+     evidence: 1 run-outs from 3 chances (33%).
+
+PLAYER REPORT: Kabir Rao
+Role: bowler
+
+Batting: 5 innings, 17 runs, average 4.2
+Bowling: 19.0 overs, 8 wickets, economy 5.47
+Fielding: 2 catches, 100% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 11% of 96 recorded deliveries landed in the target zone (below 40%).
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 22 vs pace (18 balls) and 54 vs spin (24 balls).
+ - Dismissals against spin: You are getting out often against spin.
+     evidence: 3 dismissals for 13 runs against spin (average 4.3).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 4 of 5 innings.
+ - Bowling length: Your group is centred fuller than your target; adjust your length.
+     evidence: Average pitching point is 1.8 m fuller than the target length.
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 81% dot balls from 42 balls faced (above 60%).
+
+PLAYER REPORT: Liam Shaw
+Role: bowler
+
+Batting: 7 innings, 14 runs, average 4.7
+Bowling: 21.0 overs, 8 wickets, economy 5.14
+Fielding: 1 catches, 14% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 27% of 96 recorded deliveries landed in the target zone (below 40%).
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 1 caught and 6 dropped (14% of 7 chances, below 60%).
+
+PLAYER REPORT: Milan Das
+Role: all_rounder
+
+Batting: 6 innings, 59 runs, average 9.8
+Bowling: 19.0 overs, 7 wickets, economy 5.37
+Fielding: 2 catches, 40% of chances
+
+Recommendations:
+ - Bowling accuracy: Targeted line-and-length practice.
+     evidence: 24% of 96 recorded deliveries landed in the target zone (below 40%).
+ - Dismissals against spin: You are getting out often against spin.
+     evidence: 4 dismissals for 21 runs against spin (average 5.2).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 4 of 6 innings.
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 2 caught and 3 dropped (40% of 5 chances, below 60%).
+ - Strike rotation: A high share of the balls you face are dot balls.
+     evidence: 66% dot balls from 79 balls faced (above 60%).
+ - Ground fielding: Clean pick-ups: too many misfields.
+     evidence: 7 misfields in 20 ground-fielding chances (65% clean, below 75%).
+
+PLAYER REPORT: Noah Reid
+Role: batter
+
+Batting: 6 innings, 44 runs, average 7.3
+Fielding: 0 catches, 0% of chances
+
+Recommendations:
+ - Batting against pace: You score much more slowly against pace than spin.
+     evidence: Strike rate 78 vs pace (27 balls) and 105 vs spin (22 balls).
+ - Dismissals against pace: You are getting out often against pace.
+     evidence: 3 dismissals for 21 runs against pace (average 7.0).
+ - Dismissals against spin: You are getting out often against spin.
+     evidence: 3 dismissals for 23 runs against spin (average 7.7).
+ - Starting an innings: You are often out before reaching 10.
+     evidence: Out for under 10 in 3 of 6 innings.
+ - Catching: Catching practice: your catch success rate is low.
+     evidence: 0 caught and 3 dropped (0% of 3 chances, below 60%).
+ - Ground fielding: Clean pick-ups: too many misfields.
+     evidence: 7 misfields in 20 ground-fielding chances (65% clean, below 75%).
+
+PLAYER REPORT: Omar Aziz
+Role: wicket_keeper
+
+Fielding: 4 catches, 80% of chances
+
+No recommendation crosses a coaching threshold.

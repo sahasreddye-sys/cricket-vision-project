@@ -1,0 +1,114 @@
+@import '@fontsource/barlow/400.css';
+@import '@fontsource/barlow/600.css';
+@import '@fontsource/barlow-condensed/600.css';
+@import '@fontsource/barlow-condensed/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The ground scoreboard.
+   Dark theme: the painted board itself. Light theme: a whitewashed pavilion wall
+   carrying dark number plates. Plates are dark with light numerals in both. */
+:root, :root[data-theme='dark'] {
+  --bg: #0d1310;
+  --surface: #121a16;
+  --rule: rgba(244, 246, 241, 0.14);
+  --rule-strong: rgba(244, 246, 241, 0.34);
+  --ink: #f4f6f1;
+  --ink-2: #aab5ab;
+  --plate: #050806;
+  --plate-ink: #f4f6f1;
+  --plate-dim: #6f7a71;
+  --accent: #f2c230;
+  --accent-ink: #0d1310;
+  --green: #4fae78;
+  --red: #ec6a5f;
+  --turf: #1b4a33;
+  --strip: #b9a877;
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: #f4f6f1;
+  --surface: #ffffff;
+  --rule: rgba(13, 19, 16, 0.14);
+  --rule-strong: rgba(13, 19, 16, 0.42);
+  --ink: #0d1310;
+  --ink-2: #47524a;
+  --plate: #0d1310;
+  --plate-ink: #f4f6f1;
+  --plate-dim: #7d887f;
+  --accent: #f2c230;
+  --accent-ink: #0d1310;
+  --green: #1f6b45;
+  --red: #b3261e;
+  --turf: #2f7a52;
+  --strip: #d8c98f;
+  color-scheme: light;
+}
+
+html { background: var(--bg); }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  /* Text is set in the system face (SF Pro on Apple devices); Barlow is the fallback elsewhere. */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Barlow, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--accent); color: var(--accent-ink); }
+* { scrollbar-width: thin; scrollbar-color: var(--rule-strong) transparent; }
+input, select, textarea, button { font: inherit; color: inherit; caret-color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: inherit; text-underline-offset: 3px; }
+table { border-collapse: collapse; width: 100%; }
+.num { font-variant-numeric: tabular-nums lining-nums; font-feature-settings: 'tnum' 1, 'lnum' 1; }
+
+/* Painted label: condensed capitals, the board's lettering. */
+.painted {
+  font-family: 'Barlow Condensed', Barlow, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* A number plate slotting into its window. */
+@keyframes slot { from { transform: translateY(-38%); opacity: 0.35; } to { transform: translateY(0); opacity: 1; } }
+.slot { animation: slot 140ms cubic-bezier(0.16, 1, 0.3, 1); }
+@keyframes rise { from { opacity: 0.4; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 180ms cubic-bezier(0.16, 1, 0.3, 1); }
+@media (prefers-reduced-motion: reduce) { .slot, .rise { animation: none; } * { transition: none !important; } }
+
+.field {
+  width: 100%; height: 36px; padding: 0 10px; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--rule-strong); border-radius: 8px; transition: border-color 150ms;
+}
+.field:hover { border-color: var(--ink-2); }
+.field:disabled { opacity: 0.5; cursor: not-allowed; }
+textarea.field { height: auto; padding: 8px 10px; }
+select.field { appearance: none; padding-right: 28px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 15px, calc(100% - 10px) 15px; background-size: 5px 5px; background-repeat: no-repeat; }
+input[type='range'] { accent-color: var(--accent); }
+input[type='checkbox'] { accent-color: var(--accent); width: 16px; height: 16px; }
+
+.recharts-text { fill: var(--ink-2); font-size: 12px; }
+.recharts-cartesian-grid line { stroke: var(--rule); }
+.recharts-cartesian-axis-line, .recharts-cartesian-axis-tick-line { stroke: var(--rule-strong); }
+
+/* Controls answer the pointer: a small lift on hover, a press on click. */
+.ctl { transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms, border-color 150ms, color 150ms, filter 150ms; }
+.ctl:not(:disabled):hover { transform: translateY(-1px); }
+.ctl:not(:disabled):active { transform: scale(0.97); }
+a.draw { background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size 180ms cubic-bezier(0.16, 1, 0.3, 1); text-decoration: none; }
+a.draw:hover, a.draw:focus-visible { background-size: 100% 1px; }
+/* Touch screens: every control is at least 44px tall. */
+@media (pointer: coarse) {
+  .field { height: 44px; }
+  .ctl, [role='tab'], [role='radio'] { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) { .ctl:hover, .ctl:active { transform: none !important; } }

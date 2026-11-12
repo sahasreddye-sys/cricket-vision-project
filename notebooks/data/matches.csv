@@ -1,0 +1,9 @@
+match_id,date,season,format,overs,opponent,venue,batted_first,our_score,our_overs,their_score,their_overs,result,synthetic
+1,2025-04-26,2025,T20,20,Northfield (synthetic),Home,Northfield (synthetic),110/10,19.0,141/4,20.0,lost,True
+2,2025-05-03,2025,T20,20,Riverside (synthetic),Away,Sample XI (synthetic),96/10,15.0,77/10,16.4,won,True
+3,2025-05-10,2025,T20,20,Hilltop (synthetic),Home,Sample XI (synthetic),111/9,20.0,115/7,17.4,lost,True
+4,2025-05-17,2025,T20,20,Eastbrook (synthetic),Away,Eastbrook (synthetic),102/10,18.4,132/4,20.0,lost,True
+5,2025-05-24,2025,T20,20,Northfield (synthetic),Home,Northfield (synthetic),127/3,18.3,126/8,20.0,won,True
+6,2025-05-31,2025,T20,20,Riverside (synthetic),Away,Sample XI (synthetic),62/10,10.4,68/4,9.1,lost,True
+7,2025-06-07,2025,T20,20,Hilltop (synthetic),Home,Sample XI (synthetic),129/10,18.2,121/8,20.0,won,True
+8,2025-06-14,2025,T20,20,Eastbrook (synthetic),Away,Sample XI (synthetic),98/9,20.0,93/9,20.0,won,True

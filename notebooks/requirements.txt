@@ -1,0 +1,11 @@
+# Packages the notebooks need. Install with:  pip install -r notebooks/requirements.txt
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.5
+opencv-python-headless>=4.10
+mediapipe>=0.10.30
+pillow>=10
+jupyterlab>=4
+# Optional: lets notebook 11 phrase answers with Claude when ANTHROPIC_API_KEY is set
+anthropic>=0.60

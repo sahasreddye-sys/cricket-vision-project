@@ -1,0 +1,5 @@
+model,accuracy,accuracy sd,ROC-AUC,ROC-AUC sd
+baseline,0.583,0.001,0.5,0.0
+logistic regression,0.576,0.009,0.572,0.015
+random forest,0.589,0.03,0.603,0.014
+gradient boosting,0.608,0.023,0.611,0.014
